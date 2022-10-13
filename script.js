@@ -29,7 +29,10 @@ document.addEventListener('DOMContentLoaded',show)
 
 function show(){
     var user = localStorage.getItem('user')
-    for(var i=0; i<user.length;i++){
+    for(var i=0; i<localStorage.length;i++){
         showOnScreen(user[i]);
     }
+ }
+ function deleteUser(){
+    
  }
