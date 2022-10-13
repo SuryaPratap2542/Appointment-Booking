@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form action="" >
+        <section class="disp" id="hi">
+            <h2> Get Appointment</h2>
+            <label for="name">
+                Name:<input type="text" id="name">
+            </label>
+            <label for="Phone">
+                Phone: <input type="number" id="phone">
+            </label>
+            <label for="doctor">Choose a Doctor:</label>
+            <select id="doctor" name="Doctor" id="doctor">
+                <option value="sergan">Sergery</option>
+                <option value="teeth">Teeth</option>
+                <option value="hair">Hair</option>
+                <option value="skin">Skin</option>
+            </select>
+            <br>
+            <button type="submit" onclick="addUserData(event)">Submit</button>
+        </section>
+    </form>
+
+</body>
+
+</html>
